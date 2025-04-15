@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - form</title>  
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <div class="backgroundImage">
+        <div class="form-card signUp">
+            <form action="" class="sign-up" id="submissionForm">
+                <i class="ri-user-add-fill"></i>
+                <h2>Create an account</h2>
+                <p>Join us today to access all the features. Start your journey with us, it's quick and easy!</p>
+                <div class="input-group" id="nameGroup">
+                    <input type="text" id="fullName" placeholder="Full Name" class="form-control" required>
+                    <i class="ri-user-fill"></i>
+                  </div>
+                  <div class="input-group" id="emailGroup">
+                    <input type="email" id="email" placeholder="Email" class="form-control" required>
+                    <i class="ri-mail-fill"></i>
+                  </div>
+                  <div class="input-group" id="passwordGroup">
+                    <input type="password" id="password" placeholder="Password" class="form-control" required>
+                    <i class="ri-eye-fill" id="eye"></i>
+                    <i class="ri-lock-2-fill" id="lock"></i>
+                  </div>
+                  <div class="input-group" id="confirmPasswordGroup">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" class="form-control" required>
+                    <i class="ri-lock-2-fill" id="lockConfirm"></i> 
+                     <i class="ri-eye-fill" id="eyeConfirm"></i>
+                  </div>
+                  <div class="terms-checkbox">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+                  </div>
+                  <button type="submit">Create Account</button>
+                  <div class="social-boxes">
+                    <div class="social-box">
+                      <i class="ri-google-fill google"></i>
+                    </div>
+                    <div class="social-box">
+                      <i class="ri-facebook-fill facebook"></i>
+                    </div>
+                    <div class="social-box">
+                      <i class="ri-apple-fill"></i>
+                    </div>
+                  </div>
+            </form>
+        </div>
+    </div>
+    <div class="text">
+        <h1>Join Us Today</h1>
+        <h4>DEVELOPER : <span class="userText"></span></h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
